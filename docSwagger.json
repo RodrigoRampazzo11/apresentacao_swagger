@@ -1,0 +1,29 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Sample API",
+      "description": "API description in Json",
+      "version": "1.0.0"
+    },
+    "host": "api.example.com",
+    "basePath": "/v1",
+    "schemes": [
+      "https"
+    ],
+    "paths": {
+      "/users": {
+        "get": {
+          "summary": "Returns a list of users.",
+          "description": "Endpoint para adicionar um usuário.",
+          "produces": [
+            "application/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "apresentacao_swagger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ignore swagger_output.json swagger.js",
+    "swagger-autogen": "node swagger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-autogen": "^2.7.1",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
